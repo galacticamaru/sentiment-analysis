@@ -1,14 +1,14 @@
 This repo captures a [Hex](https://app.hex.tech) notebook that I made and use regularly as a PM. There will be some Hex specific jank that I'll eventually fix.
 
 ### Files Recap
-raw_feedback.sql: SQL file containing the structure for the feedback table.
-inputs_example.py: Example script demonstrating input handling.
-sql_keywords.py: Script to handle SQL keyword operations.
-pre_process_text.py: Module for text preprocessing.
-sentiment_analysis.py: Main script to perform sentiment analysis.
-categorise_sentiment.py: Module to categorise sentiments.
-chart_compound.py: Script to generate sentiment charts.
-display_sentiment_ratio.md: Markdown file explaining sentiment ratio display.
+- raw_feedback.sql: SQL file containing the structure for the feedback table.
+- inputs_example.py: Example script demonstrating input handling.
+- sql_keywords.py: Script to handle SQL keyword operations.
+- pre_process_text.py: Module for text preprocessing.
+- sentiment_analysis.py: Main script to perform sentiment analysis.
+- categorise_sentiment.py: Module to categorise sentiments.
+- chart_compound.py: Script to generate sentiment charts.
+- display_sentiment_ratio.md: Markdown file explaining sentiment ratio display.
 
 # sentiment-analysis Features
 ### Inputs
