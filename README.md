@@ -1,4 +1,4 @@
-This repo captures a [Hex]([url](http://app.hex.tech/) notebook that I made and use regularly as a PM. There will be some Hex specific jank that I'll eventually fix.
+This repo captures a [Hex](https://app.hex.tech) notebook that I made and use regularly as a PM. There will be some Hex specific jank that I'll eventually fix.
 
 # sentiment-analysis
 This tool will take 3 inputs from the user:
