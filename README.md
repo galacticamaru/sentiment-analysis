@@ -11,10 +11,10 @@ Then it will fetch raw feedback from the customer feedback table. This table is 
 The raw feedback is then displayed and available for download. That allows you to check that you're pulling the kind of feedback you want to see.
 
 Then the tool will prepare the feedback to be better understood by some preprocessing techniques. Specifically we:
-Tokenise the text (e.g.: 'Do not send me any freaking email' -> 'Do', 'not', 'send', 'me', 'any', 'freaking', 'email')
-Remove stop words (e.g.: 'Do', 'not', 'send', 'me', 'any', 'freaking', 'email' -> 'send', 'freaking', 'email')
-Lemmatize the tokens (e.g.: 'freaking' -> 'freak')
-Join it all back up into a single string for sentiment analysis ('send freak email')
+- Tokenise the text (e.g.: 'Do not send me any freaking email' -> 'Do', 'not', 'send', 'me', 'any', 'freaking', 'email')
+- Remove stop words (e.g.: 'Do', 'not', 'send', 'me', 'any', 'freaking', 'email' -> 'send', 'freaking', 'email')
+- Lemmatize the tokens (e.g.: 'freaking' -> 'freak')
+- Join it all back up into a single string for sentiment analysis ('send freak email')
 
 With the processed strings, the tool then uses NLTK Sentiment Analyzer to score each piece of feedback with four scores:
 1. Compound Score (-1 -> 1) - consider this an aggregate score of the other three scores. -1 is very negative, 0 is very neutral, 1 is very positive)
